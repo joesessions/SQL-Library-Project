@@ -316,6 +316,7 @@ SELECT tbl_bookId.bookId_title, tbl_book_copies.book_copies_No_Of_Copies
 	inner join tbl_book_authors on tbl_bookId.bookId_bookId = tbl_book_authors.book_authors_bookId
 	WHERE tbl_Library_branch.Library_branch_BranchName='Central';
 
+
 SELECT	
 
 select * from tbl_Book_Loans
